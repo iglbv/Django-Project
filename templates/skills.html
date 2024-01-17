@@ -1,0 +1,39 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обзор вакансии</title>
+    <link rel="stylesheet" href=" {% static 'styles.css' %}">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src='/static/logo.png' alt="Логотип">
+        </div>
+        <h1>Обзор вакансии</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="/" class="underline-one">Главная страница</a></li>
+            <li><a href="/demand/" class="underline-one">Востребованность</a></li>
+            <li><a href="/geography/" class="underline-one">География</a></li>
+            <li><a href="/skills/" class="underline-one">Навыки</a></li>
+            <li><a href="/vacancies/" class="underline-one">Последние вакансии</a></li>
+        </ul>
+    </nav>
+    
+    <h2>Навыки</h2>
+
+    <footer>
+        <p>ФИО: Голубев Илья Дмитриевич</p>
+        <p>Академическая группа: РИ-220934</p>
+    </footer>
+</body>
+
+</html>

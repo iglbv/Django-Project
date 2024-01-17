@@ -17,7 +17,8 @@ header {
 }
 
 h1 {
-  padding-left: 510px;
+  position: relative;
+  left: 32%;
   font-size: 24px;
 }
 
@@ -50,7 +51,7 @@ nav li a {
 footer {
   background-color: #f5f5f5;
   position: flex;
-  right: 0;
+  left: 0;
   bottom: 0;
   text-align: center;
   width: 99%;
