@@ -26,3 +26,5 @@ urlpatterns = [
     path('vacancies/', vacancies_page),
     path('', index_page)
 ]
+
+
